@@ -22,11 +22,11 @@ After install you need to run command yarn start to start the project.
 
 #### In Source Code
 
-![polymer3 0-params-1](https://user-images.githubusercontent.com/33189395/75601126-c14b3500-5aea-11ea-8122-ba53ccbf3abb.jpg)
+![polymer3 0-params-2](https://user-images.githubusercontent.com/33189395/75601129-cad49d00-5aea-11ea-8312-d666f2fce2c1.jpg)
 
 #### In Browser
 
-![polymer3 0-params-2](https://user-images.githubusercontent.com/33189395/75601129-cad49d00-5aea-11ea-8312-d666f2fce2c1.jpg)
+![polymer3 0-params-1](https://user-images.githubusercontent.com/33189395/75601126-c14b3500-5aea-11ea-8122-ba53ccbf3abb.jpg)
 
 ## How It's Work
 
