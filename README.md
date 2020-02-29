@@ -1,4 +1,4 @@
-# Polymer 3.0 Fetch Api Example
+# Polymer 3.0 Params Example
 
 #### Thanks to "Polymer App Toolbox - Starter Kit" demo
 
@@ -9,7 +9,7 @@ https://github.com/Polymer/polymer-starter-kit
 
 ### Install
 
-After you clone "Polymer Fetch Api Example" as an demo you need to install it with yarn
+After you clone "Polymer 3.0 Params Example" as an demo you need to install it with yarn
 
     yarn install
 
@@ -21,42 +21,45 @@ After install you need to run command yarn start to start the project.
 
 
 #### In Source Code
-![Untitled](https://user-images.githubusercontent.com/33189395/64028084-33f34c00-cb6c-11e9-970c-d2a9a29ddaac.png)
+![polymer3 0-params-1](https://user-images.githubusercontent.com/33189395/75601126-c14b3500-5aea-11ea-8122-ba53ccbf3abb.jpg)
 
 #### In Browser
-![Untitled2](https://user-images.githubusercontent.com/33189395/64028433-dd3a4200-cb6c-11e9-9ca2-c0ac32bd4298.png)
+![polymer3 0-params-2](https://user-images.githubusercontent.com/33189395/75601129-cad49d00-5aea-11ea-8312-d666f2fce2c1.jpg)
 
 ## How It's Work
 
-#### 1. Dummy Api
-In this project i've used an dummy api provided by facebook.
+#### 1. Pass a params in an on click function
 
-![Untitled1](https://user-images.githubusercontent.com/33189395/64029547-06f46880-cb6f-11e9-803c-8de6af04a5b2.png)
+In this project I created an on click button to switch to page "my-view2".
 
-#### 2. First i created a component "MyMovies" in my-movies.js
+![polymer3 0-params-3](https://user-images.githubusercontent.com/33189395/75601201-88f82680-5aeb-11ea-9126-24019d21fe97.jpg)
 
-![Untitled3](https://user-images.githubusercontent.com/33189395/64028995-ea0b6580-cb6d-11e9-90cc-fdb183a83811.png)
+#### 2. In the on click function I have pass a parameter name "params" with value is "2"
 
-#### 3. Then i used the connectedCallback function to fetch api
+![polymer3 0-params-4](https://user-images.githubusercontent.com/33189395/75601231-daa0b100-5aeb-11ea-825d-dae86c664ba3.jpg)
+
+#### 3. Then I use a method call "getQueryParameters" to call our url parameter.
+
+![polymer3 0-params-5](https://user-images.githubusercontent.com/33189395/75601281-3ec37500-5aec-11ea-9a65-88799de6c041.jpg)
+
+#### 4. I used connectedCallback to call our "getQueryPrameters".
+
 _connectedCallback: Called when the element is added to a document. Can be called multiple times during the lifetime of an element.
-![Untitled4](https://user-images.githubusercontent.com/33189395/64031459-a6ffc100-cb72-11e9-9731-e6559bac8927.png)
 
-#### 4. I defined each of api items is "mymovies"
-![Untitled5](https://user-images.githubusercontent.com/33189395/64031794-59378880-cb73-11e9-9d3e-e33a5de64a4f.png)
+Then I create a variable name "queryParams" equal "this.getQueryPrameters"
 
-#### 5. In this api i used "movies" body as an api item.
-![Untitled6](https://user-images.githubusercontent.com/33189395/64031920-a3206e80-cb73-11e9-8b11-d34c28e6e0d1.png)
+![polymer3 0-params-6](https://user-images.githubusercontent.com/33189395/75601360-d6c15e80-5aec-11ea-828f-dd99723d3af9.jpg)
 
-#### 6. Call api to movies body.
-![Untitled7](https://user-images.githubusercontent.com/33189395/64032009-ccd99580-cb73-11e9-888f-f353dbbf3128.png)
+Then I set the value of element which id is "test" equal with "queryPrams.params" (our url "params" value)
 
-#### 7. Finally used dom-repeat to array all of the items.
-![Untitled8](https://user-images.githubusercontent.com/33189395/64032111-f85c8000-cb73-11e9-85fa-9fced12e9ff4.png)
+![polymer3 0-params-7](https://user-images.githubusercontent.com/33189395/75601422-7d0d6400-5aed-11ea-9892-f6507b062a2f.jpg)
 
 
 ## Final Results
 
-![Untitled9](https://user-images.githubusercontent.com/33189395/64032171-17f3a880-cb74-11e9-94a0-ef7a159b8791.png)
+![polymer3 0-params-8](https://user-images.githubusercontent.com/33189395/75601438-bf36a580-5aed-11ea-93d5-460b7810070d.jpg)
+
+![polymer3 0-params-9](https://user-images.githubusercontent.com/33189395/75601443-c9f13a80-5aed-11ea-812a-928aead44ac8.jpg)
 
 
 ### Hope you enjoy my work :D
