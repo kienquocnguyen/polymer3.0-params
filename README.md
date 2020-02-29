@@ -61,7 +61,7 @@ Then I set the value of element which id is "test" equal with "queryPrams.params
 
 ![polymer3 0-params-8](https://user-images.githubusercontent.com/33189395/75601438-bf36a580-5aed-11ea-93d5-460b7810070d.jpg)
 
-[polymer3 0-params-9](https://user-images.githubusercontent.com/33189395/75601465-02911400-5aee-11ea-93dc-142a9ce68380.jpg)
+![polymer3 0-params-9](https://user-images.githubusercontent.com/33189395/75601465-02911400-5aee-11ea-93dc-142a9ce68380.jpg)
 
 
 ### Hope you enjoy my work :D
