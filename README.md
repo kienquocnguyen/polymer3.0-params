@@ -21,9 +21,11 @@ After install you need to run command yarn start to start the project.
 
 
 #### In Source Code
+
 ![polymer3 0-params-1](https://user-images.githubusercontent.com/33189395/75601126-c14b3500-5aea-11ea-8122-ba53ccbf3abb.jpg)
 
 #### In Browser
+
 ![polymer3 0-params-2](https://user-images.githubusercontent.com/33189395/75601129-cad49d00-5aea-11ea-8312-d666f2fce2c1.jpg)
 
 ## How It's Work
@@ -59,7 +61,7 @@ Then I set the value of element which id is "test" equal with "queryPrams.params
 
 ![polymer3 0-params-8](https://user-images.githubusercontent.com/33189395/75601438-bf36a580-5aed-11ea-93d5-460b7810070d.jpg)
 
-![polymer3 0-params-9](https://user-images.githubusercontent.com/33189395/75601443-c9f13a80-5aed-11ea-812a-928aead44ac8.jpg)
+[polymer3 0-params-9](https://user-images.githubusercontent.com/33189395/75601465-02911400-5aee-11ea-93dc-142a9ce68380.jpg)
 
 
 ### Hope you enjoy my work :D
