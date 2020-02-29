@@ -37,7 +37,6 @@ class MyView2 extends PolymerElement {
   connectedCallback(){
     super.connectedCallback();
     var queryParams = this.getQueryParameters();
-    console.log(this.$.test.innerHTML);
     this.$.test.innerHTML = queryParams.params;
   }
 }
