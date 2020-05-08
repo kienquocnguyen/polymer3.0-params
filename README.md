@@ -43,7 +43,7 @@ In this project I created an on click button to switch to page "my-view2".
 #### 3. Then I use a method call "getQueryParameters" to call our url parameter.
 
     getQueryParameters (str) {
-    return (str || document.location.search).replace(/(^\?)/,'').split("&").map(function(n){return n = n.split("="),this[n[0]] =          n[1],this}.bind({}))[0];
+    return (str || document.location.search).replace(/(^\?)/,'').split("&").map(function(n){return n = n.split("="),this[n[0]] = n[1],this}.bind({}))[0];
     }
 
 ![polymer3 0-params-5](https://user-images.githubusercontent.com/33189395/75601281-3ec37500-5aec-11ea-9a65-88799de6c041.jpg)
